@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		711DB42518F307F900218592 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 711DB42418F307F900218592 /* HelpViewController.m */; };
+		712D6C3518F368940015690B /* bounce.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 712D6C3418F368940015690B /* bounce.mp3 */; };
+		71405D3218F35F0C009D58E4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71405D3118F35F0C009D58E4 /* AVFoundation.framework */; };
+		71405D3718F36036009D58E4 /* menu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71405D3618F36036009D58E4 /* menu.mp3 */; };
+		71405D3A18F363CE009D58E4 /* explosion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71405D3918F363CE009D58E4 /* explosion.mp3 */; };
+		71405D3C18F36580009D58E4 /* ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71405D3B18F36580009D58E4 /* ding.mp3 */; };
+		7189D7A618F35A16008163DF /* arrow_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 7189D7A518F35A16008163DF /* arrow_up.png */; };
+		71A8CD6519173DD4004F7094 /* Score.plist in Resources */ = {isa = PBXBuildFile; fileRef = 71A8CD6419173DD4004F7094 /* Score.plist */; };
 		71AF574F18F21AD20092C450 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71AF574E18F21AD20092C450 /* Foundation.framework */; };
 		71AF575118F21AD20092C450 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71AF575018F21AD20092C450 /* CoreGraphics.framework */; };
 		71AF575318F21AD20092C450 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71AF575218F21AD20092C450 /* UIKit.framework */; };
@@ -15,13 +23,22 @@
 		71AF575F18F21AD20092C450 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AF575E18F21AD20092C450 /* AppDelegate.m */; };
 		71AF576218F21AD20092C450 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71AF576018F21AD20092C450 /* Main_iPhone.storyboard */; };
 		71AF576518F21AD20092C450 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71AF576318F21AD20092C450 /* Main_iPad.storyboard */; };
-		71AF576818F21AD20092C450 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AF576718F21AD20092C450 /* ViewController.m */; };
+		71AF576818F21AD20092C450 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AF576718F21AD20092C450 /* GameViewController.m */; };
 		71AF576A18F21AD20092C450 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71AF576918F21AD20092C450 /* Images.xcassets */; };
 		71AF577118F21AD20092C450 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71AF577018F21AD20092C450 /* XCTest.framework */; };
 		71AF577218F21AD20092C450 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71AF574E18F21AD20092C450 /* Foundation.framework */; };
 		71AF577318F21AD20092C450 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71AF575218F21AD20092C450 /* UIKit.framework */; };
 		71AF577B18F21AD20092C450 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71AF577918F21AD20092C450 /* InfoPlist.strings */; };
-		71AF577D18F21AD20092C450 /* Yoshi_CannonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AF577C18F21AD20092C450 /* Yoshi_CannonTests.m */; };
+		71AF577D18F21AD20092C450 /* Fish_DreamsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AF577C18F21AD20092C450 /* Fish_DreamsTests.m */; };
+		71AF578818F21AEA0092C450 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AF578718F21AEA0092C450 /* MenuViewController.m */; };
+		71AF579518F224E00092C450 /* goldfish-background-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 71AF579318F224E00092C450 /* goldfish-background-01.png */; };
+		71AF579618F224E00092C450 /* goldfish-background-02.png in Resources */ = {isa = PBXBuildFile; fileRef = 71AF579418F224E00092C450 /* goldfish-background-02.png */; };
+		71AF579918F231010092C450 /* g1.png in Resources */ = {isa = PBXBuildFile; fileRef = 71AF579718F231010092C450 /* g1.png */; };
+		71AF579A18F231010092C450 /* g2.png in Resources */ = {isa = PBXBuildFile; fileRef = 71AF579818F231010092C450 /* g2.png */; };
+		71AF579D18F236520092C450 /* j1.png in Resources */ = {isa = PBXBuildFile; fileRef = 71AF579C18F236520092C450 /* j1.png */; };
+		71AF579F18F236590092C450 /* j2.png in Resources */ = {isa = PBXBuildFile; fileRef = 71AF579E18F236590092C450 /* j2.png */; };
+		71F5A13318F25B6A006C206F /* b1.png in Resources */ = {isa = PBXBuildFile; fileRef = 71F5A13118F25B6A006C206F /* b1.png */; };
+		71F5A13418F25B6A006C206F /* b2.png in Resources */ = {isa = PBXBuildFile; fileRef = 71F5A13218F25B6A006C206F /* b2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,26 +52,45 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		71AF574B18F21AD20092C450 /* Yoshi Cannon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yoshi Cannon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		711DB42318F307F900218592 /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelpViewController.h; path = ../HelpViewController.h; sourceTree = "<group>"; };
+		711DB42418F307F900218592 /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HelpViewController.m; path = ../HelpViewController.m; sourceTree = "<group>"; };
+		712D6C3418F368940015690B /* bounce.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bounce.mp3; sourceTree = "<group>"; };
+		71405D3118F35F0C009D58E4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		71405D3618F36036009D58E4 /* menu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = menu.mp3; sourceTree = "<group>"; };
+		71405D3918F363CE009D58E4 /* explosion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = explosion.mp3; sourceTree = "<group>"; };
+		71405D3B18F36580009D58E4 /* ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ding.mp3; sourceTree = "<group>"; };
+		7189D7A518F35A16008163DF /* arrow_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_up.png; sourceTree = "<group>"; };
+		71A8CD6419173DD4004F7094 /* Score.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Score.plist; sourceTree = "<group>"; };
+		71AF574B18F21AD20092C450 /* Fish Dreams.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fish Dreams.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71AF574E18F21AD20092C450 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		71AF575018F21AD20092C450 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		71AF575218F21AD20092C450 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		71AF575618F21AD20092C450 /* Yoshi Cannon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Yoshi Cannon-Info.plist"; sourceTree = "<group>"; };
+		71AF575618F21AD20092C450 /* Fish Dreams-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fish Dreams-Info.plist"; sourceTree = "<group>"; };
 		71AF575818F21AD20092C450 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		71AF575A18F21AD20092C450 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		71AF575C18F21AD20092C450 /* Yoshi Cannon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Yoshi Cannon-Prefix.pch"; sourceTree = "<group>"; };
+		71AF575C18F21AD20092C450 /* Fish Dreams-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fish Dreams-Prefix.pch"; sourceTree = "<group>"; };
 		71AF575D18F21AD20092C450 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		71AF575E18F21AD20092C450 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		71AF576118F21AD20092C450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		71AF576418F21AD20092C450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		71AF576618F21AD20092C450 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		71AF576718F21AD20092C450 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		71AF576618F21AD20092C450 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		71AF576718F21AD20092C450 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		71AF576918F21AD20092C450 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		71AF576F18F21AD20092C450 /* Yoshi CannonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yoshi CannonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71AF576F18F21AD20092C450 /* Fish DreamsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fish DreamsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71AF577018F21AD20092C450 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		71AF577818F21AD20092C450 /* Yoshi CannonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Yoshi CannonTests-Info.plist"; sourceTree = "<group>"; };
+		71AF577818F21AD20092C450 /* Fish DreamsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fish DreamsTests-Info.plist"; sourceTree = "<group>"; };
 		71AF577A18F21AD20092C450 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		71AF577C18F21AD20092C450 /* Yoshi_CannonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Yoshi_CannonTests.m; sourceTree = "<group>"; };
+		71AF577C18F21AD20092C450 /* Fish_DreamsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fish_DreamsTests.m; sourceTree = "<group>"; };
+		71AF578618F21AEA0092C450 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		71AF578718F21AEA0092C450 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		71AF579318F224E00092C450 /* goldfish-background-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "goldfish-background-01.png"; sourceTree = "<group>"; };
+		71AF579418F224E00092C450 /* goldfish-background-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "goldfish-background-02.png"; sourceTree = "<group>"; };
+		71AF579718F231010092C450 /* g1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = g1.png; sourceTree = "<group>"; };
+		71AF579818F231010092C450 /* g2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = g2.png; sourceTree = "<group>"; };
+		71AF579C18F236520092C450 /* j1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = j1.png; sourceTree = "<group>"; };
+		71AF579E18F236590092C450 /* j2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = j2.png; sourceTree = "<group>"; };
+		71F5A13118F25B6A006C206F /* b1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b1.png; sourceTree = "<group>"; };
+		71F5A13218F25B6A006C206F /* b2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71405D3218F35F0C009D58E4 /* AVFoundation.framework in Frameworks */,
 				71AF575118F21AD20092C450 /* CoreGraphics.framework in Frameworks */,
 				71AF575318F21AD20092C450 /* UIKit.framework in Frameworks */,
 				71AF574F18F21AD20092C450 /* Foundation.framework in Frameworks */,
@@ -81,11 +118,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		71405D3818F3603E009D58E4 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				712D6C3418F368940015690B /* bounce.mp3 */,
+				71405D3B18F36580009D58E4 /* ding.mp3 */,
+				71405D3918F363CE009D58E4 /* explosion.mp3 */,
+				71405D3618F36036009D58E4 /* menu.mp3 */,
+			);
+			name = Music;
+			sourceTree = "<group>";
+		};
 		71AF574218F21AD20092C450 = {
 			isa = PBXGroup;
 			children = (
-				71AF575418F21AD20092C450 /* Yoshi Cannon */,
-				71AF577618F21AD20092C450 /* Yoshi CannonTests */,
+				71AF575418F21AD20092C450 /* Fish Dreams */,
+				71AF577618F21AD20092C450 /* Fish Dreams */,
 				71AF574D18F21AD20092C450 /* Frameworks */,
 				71AF574C18F21AD20092C450 /* Products */,
 			);
@@ -94,8 +142,8 @@
 		71AF574C18F21AD20092C450 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				71AF574B18F21AD20092C450 /* Yoshi Cannon.app */,
-				71AF576F18F21AD20092C450 /* Yoshi CannonTests.xctest */,
+				71AF574B18F21AD20092C450 /* Fish Dreams.app */,
+				71AF576F18F21AD20092C450 /* Fish DreamsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +151,7 @@
 		71AF574D18F21AD20092C450 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				71405D3118F35F0C009D58E4 /* AVFoundation.framework */,
 				71AF574E18F21AD20092C450 /* Foundation.framework */,
 				71AF575018F21AD20092C450 /* CoreGraphics.framework */,
 				71AF575218F21AD20092C450 /* UIKit.framework */,
@@ -111,56 +160,121 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		71AF575418F21AD20092C450 /* Yoshi Cannon */ = {
+		71AF575418F21AD20092C450 /* Fish Dreams */ = {
 			isa = PBXGroup;
 			children = (
+				71AF578918F21BB10092C450 /* Resources */,
 				71AF575D18F21AD20092C450 /* AppDelegate.h */,
 				71AF575E18F21AD20092C450 /* AppDelegate.m */,
 				71AF576018F21AD20092C450 /* Main_iPhone.storyboard */,
 				71AF576318F21AD20092C450 /* Main_iPad.storyboard */,
-				71AF576618F21AD20092C450 /* ViewController.h */,
-				71AF576718F21AD20092C450 /* ViewController.m */,
+				711DB42318F307F900218592 /* HelpViewController.h */,
+				711DB42418F307F900218592 /* HelpViewController.m */,
+				71AF578618F21AEA0092C450 /* MenuViewController.h */,
+				71AF578718F21AEA0092C450 /* MenuViewController.m */,
+				71AF576618F21AD20092C450 /* GameViewController.h */,
+				71AF576718F21AD20092C450 /* GameViewController.m */,
 				71AF576918F21AD20092C450 /* Images.xcassets */,
 				71AF575518F21AD20092C450 /* Supporting Files */,
 			);
+			name = "Fish Dreams";
 			path = "Yoshi Cannon";
 			sourceTree = "<group>";
 		};
 		71AF575518F21AD20092C450 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				71AF575618F21AD20092C450 /* Yoshi Cannon-Info.plist */,
+				71AF575618F21AD20092C450 /* Fish Dreams-Info.plist */,
 				71AF575718F21AD20092C450 /* InfoPlist.strings */,
 				71AF575A18F21AD20092C450 /* main.m */,
-				71AF575C18F21AD20092C450 /* Yoshi Cannon-Prefix.pch */,
+				71AF575C18F21AD20092C450 /* Fish Dreams-Prefix.pch */,
+				71A8CD6419173DD4004F7094 /* Score.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		71AF577618F21AD20092C450 /* Yoshi CannonTests */ = {
+		71AF577618F21AD20092C450 /* Fish Dreams */ = {
 			isa = PBXGroup;
 			children = (
-				71AF577C18F21AD20092C450 /* Yoshi_CannonTests.m */,
+				71AF577C18F21AD20092C450 /* Fish_DreamsTests.m */,
 				71AF577718F21AD20092C450 /* Supporting Files */,
 			);
+			name = "Fish Dreams";
 			path = "Yoshi CannonTests";
 			sourceTree = "<group>";
 		};
 		71AF577718F21AD20092C450 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				71AF577818F21AD20092C450 /* Yoshi CannonTests-Info.plist */,
+				71AF577818F21AD20092C450 /* Fish DreamsTests-Info.plist */,
 				71AF577918F21AD20092C450 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		71AF578918F21BB10092C450 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				71405D3818F3603E009D58E4 /* Music */,
+				71AF578A18F21BB70092C450 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		71AF578A18F21BB70092C450 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7189D7A518F35A16008163DF /* arrow_up.png */,
+				71F5A13018F25B3C006C206F /* PowerUp Bug */,
+				71F5A12F18F25B34006C206F /* Background */,
+				71F5A12E18F25B1C006C206F /* Flame */,
+				71AF579B18F231040092C450 /* Flying */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		71AF579B18F231040092C450 /* Flying */ = {
+			isa = PBXGroup;
+			children = (
+				71AF579718F231010092C450 /* g1.png */,
+				71AF579818F231010092C450 /* g2.png */,
+			);
+			name = Flying;
+			sourceTree = "<group>";
+		};
+		71F5A12E18F25B1C006C206F /* Flame */ = {
+			isa = PBXGroup;
+			children = (
+				71AF579E18F236590092C450 /* j2.png */,
+				71AF579C18F236520092C450 /* j1.png */,
+			);
+			name = Flame;
+			sourceTree = "<group>";
+		};
+		71F5A12F18F25B34006C206F /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				71AF579318F224E00092C450 /* goldfish-background-01.png */,
+				71AF579418F224E00092C450 /* goldfish-background-02.png */,
+			);
+			name = Background;
+			sourceTree = "<group>";
+		};
+		71F5A13018F25B3C006C206F /* PowerUp Bug */ = {
+			isa = PBXGroup;
+			children = (
+				71F5A13118F25B6A006C206F /* b1.png */,
+				71F5A13218F25B6A006C206F /* b2.png */,
+			);
+			name = "PowerUp Bug";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		71AF574A18F21AD20092C450 /* Yoshi Cannon */ = {
+		71AF574A18F21AD20092C450 /* Fish Dreams */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 71AF578018F21AD20092C450 /* Build configuration list for PBXNativeTarget "Yoshi Cannon" */;
+			buildConfigurationList = 71AF578018F21AD20092C450 /* Build configuration list for PBXNativeTarget "Fish Dreams" */;
 			buildPhases = (
 				71AF574718F21AD20092C450 /* Sources */,
 				71AF574818F21AD20092C450 /* Frameworks */,
@@ -170,14 +284,14 @@
 			);
 			dependencies = (
 			);
-			name = "Yoshi Cannon";
+			name = "Fish Dreams";
 			productName = "Yoshi Cannon";
-			productReference = 71AF574B18F21AD20092C450 /* Yoshi Cannon.app */;
+			productReference = 71AF574B18F21AD20092C450 /* Fish Dreams.app */;
 			productType = "com.apple.product-type.application";
 		};
-		71AF576E18F21AD20092C450 /* Yoshi CannonTests */ = {
+		71AF576E18F21AD20092C450 /* Fish DreamsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 71AF578318F21AD20092C450 /* Build configuration list for PBXNativeTarget "Yoshi CannonTests" */;
+			buildConfigurationList = 71AF578318F21AD20092C450 /* Build configuration list for PBXNativeTarget "Fish DreamsTests" */;
 			buildPhases = (
 				71AF576B18F21AD20092C450 /* Sources */,
 				71AF576C18F21AD20092C450 /* Frameworks */,
@@ -188,9 +302,9 @@
 			dependencies = (
 				71AF577518F21AD20092C450 /* PBXTargetDependency */,
 			);
-			name = "Yoshi CannonTests";
+			name = "Fish DreamsTests";
 			productName = "Yoshi CannonTests";
-			productReference = 71AF576F18F21AD20092C450 /* Yoshi CannonTests.xctest */;
+			productReference = 71AF576F18F21AD20092C450 /* Fish DreamsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +321,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 71AF574618F21AD20092C450 /* Build configuration list for PBXProject "Yoshi Cannon" */;
+			buildConfigurationList = 71AF574618F21AD20092C450 /* Build configuration list for PBXProject "Fish Dreams" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,8 +334,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				71AF574A18F21AD20092C450 /* Yoshi Cannon */,
-				71AF576E18F21AD20092C450 /* Yoshi CannonTests */,
+				71AF574A18F21AD20092C450 /* Fish Dreams */,
+				71AF576E18F21AD20092C450 /* Fish DreamsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,10 +345,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71AF579F18F236590092C450 /* j2.png in Resources */,
+				7189D7A618F35A16008163DF /* arrow_up.png in Resources */,
+				712D6C3518F368940015690B /* bounce.mp3 in Resources */,
 				71AF576518F21AD20092C450 /* Main_iPad.storyboard in Resources */,
+				71F5A13318F25B6A006C206F /* b1.png in Resources */,
+				71AF579618F224E00092C450 /* goldfish-background-02.png in Resources */,
+				71AF579A18F231010092C450 /* g2.png in Resources */,
+				71AF579518F224E00092C450 /* goldfish-background-01.png in Resources */,
+				71405D3718F36036009D58E4 /* menu.mp3 in Resources */,
+				71405D3C18F36580009D58E4 /* ding.mp3 in Resources */,
+				71405D3A18F363CE009D58E4 /* explosion.mp3 in Resources */,
 				71AF576A18F21AD20092C450 /* Images.xcassets in Resources */,
 				71AF576218F21AD20092C450 /* Main_iPhone.storyboard in Resources */,
+				71A8CD6519173DD4004F7094 /* Score.plist in Resources */,
 				71AF575918F21AD20092C450 /* InfoPlist.strings in Resources */,
+				71F5A13418F25B6A006C206F /* b2.png in Resources */,
+				71AF579918F231010092C450 /* g1.png in Resources */,
+				71AF579D18F236520092C450 /* j1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,9 +381,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71AF576818F21AD20092C450 /* ViewController.m in Sources */,
+				711DB42518F307F900218592 /* HelpViewController.m in Sources */,
+				71AF576818F21AD20092C450 /* GameViewController.m in Sources */,
 				71AF575F18F21AD20092C450 /* AppDelegate.m in Sources */,
 				71AF575B18F21AD20092C450 /* main.m in Sources */,
+				71AF578818F21AEA0092C450 /* MenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +393,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71AF577D18F21AD20092C450 /* Yoshi_CannonTests.m in Sources */,
+				71AF577D18F21AD20092C450 /* Fish_DreamsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +402,7 @@
 /* Begin PBXTargetDependency section */
 		71AF577518F21AD20092C450 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 71AF574A18F21AD20092C450 /* Yoshi Cannon */;
+			target = 71AF574A18F21AD20092C450 /* Fish Dreams */;
 			targetProxy = 71AF577418F21AD20092C450 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -391,9 +521,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Yoshi Cannon/Yoshi Cannon-Prefix.pch";
-				INFOPLIST_FILE = "Yoshi Cannon/Yoshi Cannon-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Yoshi Cannon/Fish Dreams-Prefix.pch";
+				INFOPLIST_FILE = "Yoshi Cannon/Fish Dreams-Info.plist";
+				PRODUCT_NAME = "Fish Dreams";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -404,9 +534,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Yoshi Cannon/Yoshi Cannon-Prefix.pch";
-				INFOPLIST_FILE = "Yoshi Cannon/Yoshi Cannon-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Yoshi Cannon/Fish Dreams-Prefix.pch";
+				INFOPLIST_FILE = "Yoshi Cannon/Fish Dreams-Info.plist";
+				PRODUCT_NAME = "Fish Dreams";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -426,8 +556,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Yoshi CannonTests/Yoshi CannonTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Yoshi CannonTests/Fish DreamsTests-Info.plist";
+				PRODUCT_NAME = "Fish DreamsTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -444,8 +574,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Yoshi Cannon/Yoshi Cannon-Prefix.pch";
-				INFOPLIST_FILE = "Yoshi CannonTests/Yoshi CannonTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Yoshi CannonTests/Fish DreamsTests-Info.plist";
+				PRODUCT_NAME = "Fish DreamsTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -454,7 +584,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		71AF574618F21AD20092C450 /* Build configuration list for PBXProject "Yoshi Cannon" */ = {
+		71AF574618F21AD20092C450 /* Build configuration list for PBXProject "Fish Dreams" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				71AF577E18F21AD20092C450 /* Debug */,
@@ -463,21 +593,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		71AF578018F21AD20092C450 /* Build configuration list for PBXNativeTarget "Yoshi Cannon" */ = {
+		71AF578018F21AD20092C450 /* Build configuration list for PBXNativeTarget "Fish Dreams" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				71AF578118F21AD20092C450 /* Debug */,
 				71AF578218F21AD20092C450 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		71AF578318F21AD20092C450 /* Build configuration list for PBXNativeTarget "Yoshi CannonTests" */ = {
+		71AF578318F21AD20092C450 /* Build configuration list for PBXNativeTarget "Fish DreamsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				71AF578418F21AD20092C450 /* Debug */,
 				71AF578518F21AD20092C450 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
